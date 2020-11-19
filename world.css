@@ -1,1 +1,40 @@
 /* Add your own styles */
+
+html{
+
+    background-color: #9c8787;
+    color:#9c8787 ;
+}
+
+
+
+header{
+
+    background-color: #7ca841;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.btn{
+    
+    display: flex;
+    flex-direction: column;
+    background-color:#29a529;
+    color: #ffffff;
+}
+
+.btn2{
+    
+    display: inline-flex;
+    background-color:#16c3ee;
+    color: #ffffff;
+}
+
+.country{
+    text-align: center;
+
+    width: 500px;
+    border: 1px solid #999999;
+    padding: 5px;
+}
