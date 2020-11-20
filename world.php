@@ -10,7 +10,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-if (isset()=$_GET['country'] || empty($_GET['country'])){
+if (isset($_GET['country'] || empty($_GET['country'])){
 
 $stmt= $conn->query("SELECT * FROM countries WHERE name LIKE '%country%'");
 $countries = $stmt->fetchAll(PDO::FETCH_ASSOC);
